@@ -1,0 +1,2 @@
+rootProject.name='ARAndIssue'
+include ':app'
