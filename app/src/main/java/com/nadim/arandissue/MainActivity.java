@@ -20,7 +20,7 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     Calendar c;
-    TextView txtDate, txtTime, txtArDemo;
+    TextView txtDate, txtTime, txtArDemo,txtSmartReplay;
     String date = "", timeWithSecond;
     Long selectedDate;
     Long today;
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         txtDate = findViewById(R.id.txtDate);
         txtTime = findViewById(R.id.txtTime);
         txtArDemo = findViewById(R.id.txtArDemo);
+        txtSmartReplay=findViewById(R.id.txtSmartReplay);
 
         txtArDemo.setOnClickListener(new View.OnClickListener() {
             @Override
